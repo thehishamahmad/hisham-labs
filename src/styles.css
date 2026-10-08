@@ -477,6 +477,11 @@ h1 span {
 }
 
 @media (min-width: 1280px) {
+  .hero-inner {
+    grid-template-columns: minmax(0, 590px) minmax(0, 1fr);
+    gap: 50px;
+  }
+
   .closing-inner {
     width: min(100% - 80px, 1280px);
   }
