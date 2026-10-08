@@ -334,6 +334,10 @@ h1 span {
   background: linear-gradient(180deg, #090d20 0%, #0b1527 100%);
 }
 
+.project-section.platform .project-grid {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.22fr);
+}
+
 .project-section.image-right .screenshot-surface {
   order: 2;
 }
@@ -630,6 +634,10 @@ h1 span {
   .project-grid {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+
+  .project-section.platform .project-grid {
+    grid-template-columns: 1fr;
   }
 
   .hero-actions {
