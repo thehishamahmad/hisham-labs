@@ -80,7 +80,7 @@ const projects: Project[] = [
     category: "Platform Architecture",
     name: "OpenShift Architect Studio",
     featured: true,
-    description: "Learn OpenShift components. Connect them to customer requirements.",
+    description: "Learn OpenShift through customer scenarios.",
     statements: [
       "OpenShift can be difficult to learn when its components are explained separately from the problems they solve.",
       "I built OpenShift Architect Studio to make that connection clearer. Learn Mode helps newcomers understand what each OpenShift component does and why it matters.",
