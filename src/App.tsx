@@ -203,7 +203,7 @@ function ScreenshotSurface({ project }: { project: Project }) {
 }
 
 function projectSectionId(project: Project) {
-  return project.name.toLowerCase();
+  return project.name.toLowerCase().replace(/\s+/g, "-");
 }
 
 function LabIndex() {
@@ -233,14 +233,14 @@ function ProjectSection({ project, first }: { project: Project; first?: boolean 
     <section
       className={`project-section ${project.tone} ${project.align}`}
       id={projectSectionId(project)}
-      aria-labelledby={`${project.name.toLowerCase()}-title`}
+      aria-labelledby={`${projectSectionId(project)}-title`}
     >
       {first && <span className="anchor-marker" id="projects" aria-hidden="true" />}
       <div className="project-grid shell">
         <ScreenshotSurface project={project} />
         <div className="project-copy">
           <p className="eyebrow">{project.category}</p>
-          <h2 id={`${project.name.toLowerCase()}-title`}>{project.name}</h2>
+          <h2 id={`${projectSectionId(project)}-title`}>{project.name}</h2>
           {project.statements.map((statement) => (
             <p key={statement}>{statement}</p>
           ))}
