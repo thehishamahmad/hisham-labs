@@ -80,11 +80,11 @@ const projects: Project[] = [
     category: "Platform Architecture",
     name: "OpenShift Architect Studio",
     featured: true,
-    description: "See how requirements shape an OpenShift solution.",
+    description: "Learn OpenShift components. Connect them to customer requirements.",
     statements: [
-      "An OpenShift design is easier to understand when every platform choice can be traced back to a requirement.",
-      "OpenShift Architect Studio turns plain-language needs into a conceptual architecture, showing the components involved and why each one belongs.",
-      "Explore guided scenarios, inspect the diagram and learn the trade-offs before shaping a real solution."
+      "OpenShift can be difficult to learn when its components are explained separately from the problems they solve.",
+      "I built OpenShift Architect Studio to make that connection clearer. Learn Mode helps newcomers understand what each OpenShift component does and why it matters.",
+      "Architect Mode starts with a customer scenario and shows how an architect connects the requirements to the relevant components. Together, the two modes help users understand both the platform and the reasoning behind a solution."
     ],
     url: "https://openshift.hishamlabs.com/",
     image: {
