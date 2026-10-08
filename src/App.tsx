@@ -14,7 +14,7 @@ type Project = {
     alt: string;
     position: string;
   };
-  tone: "cloud" | "operations" | "travel";
+  tone: "cloud" | "operations" | "travel" | "platform";
   align: "image-left" | "image-right";
 };
 
@@ -75,6 +75,25 @@ const projects: Project[] = [
     },
     tone: "travel",
     align: "image-left"
+  },
+  {
+    category: "Platform Architecture",
+    name: "OpenShift Architect Studio",
+    featured: true,
+    description: "See how requirements shape an OpenShift solution.",
+    statements: [
+      "An OpenShift design is easier to understand when every platform choice can be traced back to a requirement.",
+      "OpenShift Architect Studio turns plain-language needs into a conceptual architecture, showing the components involved and why each one belongs.",
+      "Explore guided scenarios, inspect the diagram and learn the trade-offs before shaping a real solution."
+    ],
+    url: "https://openshift.hishamlabs.com/",
+    image: {
+      src: "/images/projects/openshift-studio.webp",
+      alt: "OpenShift Architect Studio start screen with platform architecture illustration",
+      position: "center top"
+    },
+    tone: "platform",
+    align: "image-right"
   }
 ];
 

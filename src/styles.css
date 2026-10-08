@@ -330,6 +330,10 @@ h1 span {
   background: linear-gradient(180deg, #0a2a2a 0%, #090d20 100%);
 }
 
+.project-section.platform {
+  background: linear-gradient(180deg, #090d20 0%, #0b1527 100%);
+}
+
 .project-section.image-right .screenshot-surface {
   order: 2;
 }
@@ -391,6 +395,10 @@ h1 span {
   background:
     linear-gradient(140deg, rgba(104, 76, 166, 0.1), transparent 52%),
     #0c0913;
+}
+
+.screenshot-surface.platform {
+  background: #f4f4f4;
 }
 
 .screenshot-placeholder {
