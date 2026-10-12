@@ -336,6 +336,7 @@ h1 span {
 
 .project-section.identity {
   background: linear-gradient(180deg, #0b1527 0%, #090d20 100%);
+  border-top-color: rgba(105, 139, 177, 0.22);
 }
 
 .project-section.platform .project-grid {
