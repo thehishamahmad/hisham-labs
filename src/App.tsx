@@ -14,7 +14,7 @@ type Project = {
     alt: string;
     position: string;
   };
-  tone: "cloud" | "operations" | "travel" | "platform";
+  tone: "cloud" | "operations" | "travel" | "platform" | "identity";
   align: "image-left" | "image-right";
 };
 
@@ -94,6 +94,25 @@ const projects: Project[] = [
     },
     tone: "platform",
     align: "image-right"
+  },
+  {
+    category: "Infrastructure Learning",
+    name: "Active Directory Learning Studio",
+    featured: true,
+    description: "Learn the concepts. Understand the architecture.",
+    statements: [
+      "Active Directory is easier to learn when you can visualise how its services, identity flows and infrastructure decisions connect.",
+      "Active Directory Learning Studio offers 11 interactive modules across Core AD, Hybrid Identity & Migration, and Infrastructure Sizing & Design.",
+      "Explore connected scenarios, visual explanations and architecture reasoning to build confidence beyond memorising technical terms."
+    ],
+    url: "https://adls.hishamlabs.com",
+    image: {
+      src: "/images/projects/adls-studio.svg",
+      alt: "Illustrated preview of the Active Directory Learning Studio landing page",
+      position: "center top"
+    },
+    tone: "identity",
+    align: "image-left"
   }
 ];
 
