@@ -12,6 +12,7 @@
 | **CarWashOS** | Give car wash staff a live view of vehicles and customers clearer queue expectations. | [carwashos.hishamlabs.com](https://carwashos.hishamlabs.com/) |
 | **RareCruise** | Turn cruise itineraries into a visual journey that is easier to explore and compare. | [rarecruise.hishamlabs.com](https://rarecruise.hishamlabs.com/) |
 | **OpenShift Architect Studio** | Learn OpenShift components through customer scenarios. Learn Mode explains each component's role; Architect Mode connects customer requirements to the relevant components and solution reasoning. | [openshift.hishamlabs.com](https://openshift.hishamlabs.com/) |
+| **Active Directory Learning Studio (ADLS)** | Explore 11 interactive modules across Core AD, Hybrid Identity & Migration, and Infrastructure Sizing & Design through visual explanations and architecture scenarios. | [adls.hishamlabs.com](https://adls.hishamlabs.com/) |
 
 ## Approach
 
