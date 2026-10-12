@@ -107,8 +107,8 @@ const projects: Project[] = [
     ],
     url: "https://adls.hishamlabs.com",
     image: {
-      src: "/images/projects/adls-studio.svg",
-      alt: "Illustrated preview of the Active Directory Learning Studio landing page",
+      src: "/images/projects/adls-studio.jpg",
+      alt: "Screenshot of the Active Directory Learning Studio landing page landing page",
       position: "center top"
     },
     tone: "identity",
